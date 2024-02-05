@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34221.43
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "codebuilder", "codebuilder\codebuilder.vcxproj", "{A84DFD7D-465B-47EB-9521-4A2650F4FF8B}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "codebuilder_dir", "codebuilder_dir\codebuilder_dir.pyproj", "{5DC9D256-2352-43D0-948F-AD7BFBF06815}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A84DFD7D-465B-47EB-9521-4A2650F4FF8B}.Debug|Any CPU.ActiveCfg = Debug|x64
+		{A84DFD7D-465B-47EB-9521-4A2650F4FF8B}.Debug|Any CPU.Build.0 = Debug|x64
+		{A84DFD7D-465B-47EB-9521-4A2650F4FF8B}.Debug|x64.ActiveCfg = Debug|x64
+		{A84DFD7D-465B-47EB-9521-4A2650F4FF8B}.Debug|x64.Build.0 = Debug|x64
+		{A84DFD7D-465B-47EB-9521-4A2650F4FF8B}.Release|Any CPU.ActiveCfg = Release|x64
+		{A84DFD7D-465B-47EB-9521-4A2650F4FF8B}.Release|Any CPU.Build.0 = Release|x64
+		{A84DFD7D-465B-47EB-9521-4A2650F4FF8B}.Release|x64.ActiveCfg = Release|x64
+		{A84DFD7D-465B-47EB-9521-4A2650F4FF8B}.Release|x64.Build.0 = Release|x64
+		{5DC9D256-2352-43D0-948F-AD7BFBF06815}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DC9D256-2352-43D0-948F-AD7BFBF06815}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{5DC9D256-2352-43D0-948F-AD7BFBF06815}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DC9D256-2352-43D0-948F-AD7BFBF06815}.Release|x64.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D12DEC9E-2715-42A9-983B-803FF4674C41}
+	EndGlobalSection
+EndGlobal

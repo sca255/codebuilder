@@ -1,0 +1,122 @@
+-r
+C:\Users\arpandas\source\repos\codebuilder\codebuilder\e000\hs001
+--mrte-mode=auto
+--follow-child
+--return-app-exitcode
+--strategy=ld-linux.so.2:notrace:notrace,ld-linux-x86-64.so.2:notrace:notrace
+--interval=10
+--data-limit-mb=500
+--stack-stitching
+--itt-config=frame,task,event,counter,model
+--stackwalk=offline
+--stack-unwind-limit=8388608
+--mrte-type=java,dotnet,python
+--type=cpu:stack
+--opencl-trace-mode=default
+--search-dir
+sym=C:\\Users\\arpandas\\source\\repos\\codebuilder\\x64\\Debug
+--search-dir
+sym:r=C:\\Users\\arpandas\\source\\repos\\codebuilder
+--search-dir
+bin=C:\\Users\\arpandas\\source\\repos\\codebuilder\\x64\\Debug
+--search-dir
+bin=C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64
+--search-dir
+bin=C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.22621.0\\x64
+--search-dir
+bin=C:\\Program Files (x86)\\Microsoft SDKs\\Windows\\v10.0A\\bin\\NETFX 4.8 Tools\\x64
+--search-dir
+bin=C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.22621.0\\x86
+--search-dir
+bin=C:\\Program Files (x86)\\Microsoft SDKs\\Windows\\v10.0A\\bin\\NETFX 4.8 Tools
+--search-dir
+bin=C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\Common7\\tools
+--search-dir
+bin=C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\Common7\\ide
+--search-dir
+bin=C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\MSBuild\\Current\\Bin\\amd64
+--search-dir
+bin=C:\\WINDOWS\\Microsoft.NET\\Framework64\\v4.0.30319
+--search-dir
+bin=C:\\WINDOWS\\Microsoft.NET\\Framework\\v4.0.30319
+--search-dir
+bin=C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\MSBuild\\Current\\Bin
+--search-dir
+bin=C:\\Program Files\\Eclipse Adoptium\\jdk-11.0.21.9-hotspot\\bin
+--search-dir
+bin=C:\\Python312\\Scripts
+--search-dir
+bin=C:\\Python312
+--search-dir
+bin=C:\\Program Files\\Java\\jdk-20\\bin
+--search-dir
+bin=C:\\Users\\arpandas\\Documents\\oracle_db\\oracle_base\\oracle21c\\bin
+--search-dir
+bin=C:\\Program Files (x86)\\Common Files\\Intel\\Shared Libraries\\redist\\intel64\\compiler
+--search-dir
+bin=C:\\Program Files\\Microsoft\\jdk-11.0.16.101-hotspot\\bin
+--search-dir
+bin=C:\\Program Files\\Common Files\\Oracle\\Java\\javapath
+--search-dir
+bin=C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath
+--search-dir
+bin=C:\\WINDOWS\\system32
+--search-dir
+bin=C:\\WINDOWS
+--search-dir
+bin=C:\\WINDOWS\\System32\\Wbem
+--search-dir
+bin=C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0
+--search-dir
+bin=C:\\WINDOWS\\System32\\OpenSSH
+--search-dir
+bin=C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn
+--search-dir
+bin=C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn
+--search-dir
+bin=C:\\Program Files\\dotnet
+--search-dir
+bin=C:\\Program Files\\Git\\cmd
+--search-dir
+bin=C:\\Program Files\\Calibre2
+--search-dir
+bin=C:\\Program Files\\Cloudflare\\Cloudflare WARP
+--search-dir
+bin=C:\\Program Files\\Airshipper
+--search-dir
+bin=C:\\ProgramData\\chocolatey\\bin
+--search-dir
+bin=C:\\Program Files\\nodejs
+--search-dir
+bin=C:\\Program Files\\Docker\\Docker\\resources\\bin
+--search-dir
+bin=C:\\Ruby33-x64\\bin
+--search-dir
+bin=C:\\Users\\arpandas\\.cargo\\bin
+--search-dir
+bin=C:\\Users\\arpandas\\AppData\\Local\\Microsoft\\WindowsApps
+--search-dir
+bin=C:\\Users\\arpandas\\Documents\\local\\bin
+--search-dir
+bin=C:\\Users\\arpandas\\.dotnet\\tools
+--search-dir
+bin=C:\\Program Files\\Git\\bin
+--search-dir
+bin=C:\\Users\\arpandas\\AppData\\Local\\JetBrains\\Toolbox\\scripts
+--search-dir
+bin=C:\\Program Files\\Neovim\\bin
+--search-dir
+bin=C:\\Users\\arpandas\\AppData\\Local\\Programs\\oh-my-posh\\bin
+--search-dir
+bin=C:\\Users\\arpandas\\AppData\\Local\\gitkraken\\bin
+--search-dir
+bin=C:\\Users\\arpandas\\AppData\\Roaming\\npm
+--search-dir
+bin=C:\\Users\\arpandas\\anaconda3
+--search-dir
+bin=C:\\Users\\arpandas\\AppData\\Local\\GitHubDesktop\\bin
+--search-dir
+bin=C:\\Users\\arpandas\\source\\repos\\codebuilder
+--app-working-dir=C:\\Users\\arpandas\\source\\repos\\codebuilder\\codebuilder\
+--
+C:\\Users\\arpandas\\source\\repos\\codebuilder\\x64\\Debug\\codebuilder.exe
