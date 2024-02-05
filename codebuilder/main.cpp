@@ -312,6 +312,8 @@ int main(int argc, char* argv[])
                 optdata = optdata.append("import " + list[1] + ";\n");
             else if (list[0]=="endcls")
                 optdata = optdata.append("}\n");
+            else if (list[0]=="pkg")
+                optdata = optdata.append("package " + list[1] + ";\n");
         }
     }
     optfl.write(optdata.toUtf8());
