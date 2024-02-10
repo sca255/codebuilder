@@ -9,12 +9,11 @@ int main(int argc, char* argv[])
     QTextStream stream(stdout);
     stream << "File: " << argv[2] << "\n";
     stream.flush();
-    file.setPermissions(QFileDevice::WriteUser);
     file.open(QIODevice::ReadOnly);
-    file.setPermissions(QFileDevice::ReadOwner);
     QFile optfl(argv[3]);
     optfl.open(QIODevice::WriteOnly);
     optfl.setPermissions(QFileDevice::WriteUser);
+    optfl.setPermissions(QFileDevice::ReadOwner);
     QString optdata="";
 
     QString arg1 = QString(argv[1]);
@@ -331,6 +330,12 @@ int main(int argc, char* argv[])
         }
     }
     optfl.write(optdata.toUtf8());
+    stream << file.error();
+    stream << optfl.error();
+    stream << file.errorString();
+    stream << optfl.errorString();
+    //stream << "//error below if found";
+    stream.flush();
     file.close();
     optfl.close();
     QCoreApplication::exit();
