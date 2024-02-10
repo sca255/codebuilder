@@ -11,6 +11,7 @@ int main(int argc, char* argv[])
     stream.flush();
     file.setPermissions(QFileDevice::WriteUser);
     file.open(QIODevice::ReadOnly);
+    file.setPermissions(QFileDevice::ReadOwner);
     QFile optfl(argv[3]);
     optfl.open(QIODevice::WriteOnly);
     optfl.setPermissions(QFileDevice::WriteUser);
