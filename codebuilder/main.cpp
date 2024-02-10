@@ -78,6 +78,8 @@ int main(int argc, char* argv[])
                 optdata=optdata.append("import " + list[1] + "\n");
             }stream << file.error();
             stream << optfl.error();
+            stream << file.errorString();
+            stream << optfl.errorString();
             //stream << "//error below if found";
             stream.flush();
         }
@@ -168,7 +170,12 @@ int main(int argc, char* argv[])
 				optdata = optdata.append("#include <" + list[1] + ">\n");
             else if (list[0]=="strnms")
                 optdata = optdata.append("namespace " + list[1] + " {\n");
-            
+            stream << file.error();
+            stream << optfl.error();
+            stream << file.errorString();
+            stream << optfl.errorString();
+            //stream << "//error below if found";
+            stream.flush();
 
         }
     }
@@ -314,6 +321,12 @@ int main(int argc, char* argv[])
                 optdata = optdata.append("}\n");
             else if (list[0]=="pkg")
                 optdata = optdata.append("package " + list[1] + ";\n");
+            stream << file.error();
+            stream << optfl.error();
+            stream << file.errorString();
+            stream << optfl.errorString();
+            //stream << "//error below if found";
+            stream.flush();
         }
     }
     optfl.write(optdata.toUtf8());
